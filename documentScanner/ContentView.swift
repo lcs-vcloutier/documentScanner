@@ -29,7 +29,7 @@ struct ContentView: View {
             }
             .navigationTitle("Scanner")
             .navigationBarItems(trailing:
-            Button(action: {
+                                    Button(action: {
                 self.showScannerSheet = true
             }, label: {
                 Image(systemName: "doc.text.viewfinder")
