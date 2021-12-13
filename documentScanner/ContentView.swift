@@ -13,7 +13,19 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                
+                if texts.count > 0 {
+                    List {
+                        ForEach(texts) { text in
+                            NavigationLink {
+                                ScrollView {
+                                    Text(text.content)
+                                }
+                            } label: {
+                                Text(text.content).lineLimit(1)
+                            }
+                        }
+                    }
+                }
             }
             .navigationTitle("Scanner")
             .navigationBarItems(trailing:
