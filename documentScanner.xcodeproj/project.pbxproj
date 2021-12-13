@@ -12,6 +12,7 @@
 		92F3299F2767F0EB00E5577E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F3299E2767F0EB00E5577E /* Assets.xcassets */; };
 		92F329A22767F0EB00E5577E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F329A12767F0EB00E5577E /* Preview Assets.xcassets */; };
 		92F329A92767F33D00E5577E /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F329A82767F33D00E5577E /* ScanData.swift */; };
+		92F329AC2767F61500E5577E /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F329AB2767F61500E5577E /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92F329A12767F0EB00E5577E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92F329A82767F33D00E5577E /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
 		92F329AA2767F5C000E5577E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92F329AB2767F61500E5577E /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				92F329AA2767F5C000E5577E /* Info.plist */,
 				92F3299A2767F0EA00E5577E /* documentScannerApp.swift */,
 				92F3299C2767F0EA00E5577E /* ContentView.swift */,
+				92F329AB2767F61500E5577E /* ScannerView.swift */,
 				92F329A82767F33D00E5577E /* ScanData.swift */,
 				92F3299E2767F0EB00E5577E /* Assets.xcassets */,
 				92F329A02767F0EB00E5577E /* Preview Content */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92F3299D2767F0EA00E5577E /* ContentView.swift in Sources */,
+				92F329AC2767F61500E5577E /* ScannerView.swift in Sources */,
 				92F3299B2767F0EA00E5577E /* documentScannerApp.swift in Sources */,
 				92F329A92767F33D00E5577E /* ScanData.swift in Sources */,
 			);
