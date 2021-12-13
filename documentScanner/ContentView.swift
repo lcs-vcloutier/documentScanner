@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showScannerSheet = false
+    @State private var texts: [ScanData] = []
     var body: some View {
         NavigationView {
             VStack {
