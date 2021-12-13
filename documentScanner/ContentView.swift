@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showScannerSheet = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("Scanner")
+            .navigationBarItems(trailing:
+            Button(action: {
+                self.showScannerSheet = true
+            }, label: {
+                Image(systemName: "doc.text.viewfinder")
+                    .font(.title)
+            }))
+            .sheet(isPresented: $showScannerSheet) {
+                
+            }
+        }
     }
 }
